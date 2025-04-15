@@ -1,0 +1,285 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #EDE8F5;
+}
+section{
+    height: 100vh;
+}
+.navhead{
+    position: absolute ;
+    top: 60px;
+    left: 150px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.homepagenav ul{
+    margin-left: 60%;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.homepagenav ul li{
+    color: black;
+    list-style-type: none;
+    display: inline;
+    padding-right: 30px;
+    margin-top: 50px;
+}
+.homepagenav ul a{
+    text-decoration: none;
+}
+.homepagenav ul a button{
+    height: 50px;
+    width: 130px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #50C878;
+}
+.homepagenav ul a button:hover{
+    cursor: pointer;
+}
+.image1 img{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    padding-right: 20px;
+    margin-left: 710px;
+    margin-top: 62px;
+}
+.image2 img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: 670px;
+    margin-top: 64px;
+}
+
+/* animation box */
+.container{
+    position: relative;
+    height: 300px;
+    width: 500px;
+}
+
+.animation1, .animation2{
+    height: 200px;
+    width: 400px;
+    border-radius: 110px;
+    position: absolute;
+}
+
+.animation1{
+    background-color: rgb(138, 132, 132);
+    z-index: 1;
+    margin-top: 80px;
+    margin-left: 50px;
+
+    opacity: 0;
+    transform:translateY(70px);
+    animation:fadeMoveUp 1s ease forwards;
+}
+@keyframes fadeMoveUp{
+    to {
+        opacity:1;
+        transform:translateY(5px);
+    }
+}
+.animation2{
+    background-color: rgb(56, 59, 59);
+    margin-top: 200px;
+    margin-left: 190px;
+    z-index: 10;
+
+   opacity: 0;
+   transform: translateY(40px);
+   animation: fadeMoveUp 1s ease forwards;
+}
+@keyframes fadeMoveUp {
+    to {
+        opacity: 1;
+        transform: translateY(5px);
+    }
+}
+
+.building{
+    position: relative;
+    display: inline-block;
+    left: 670px;
+    bottom: 260px;
+    font-size: 80px;
+    color: black;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.sites{
+    position: relative;
+    display: inline-block;
+    left: 140px;
+    bottom: 165px;
+    font-size: 120px;
+    color: black;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* section Skills */
+.skillhead p{
+    position: absolute;
+    font-size: 40px;
+    display: inline;
+    top: 770px;
+    left: 50px;
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.skillbox{
+    position: relative;
+}
+.skillbox1{
+    height: 280px;
+    width: 450px;
+    border-radius: 150px;
+    background-color: rgb(83, 79, 79);
+    position: absolute;
+    top: 60px;
+    left: 770px;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeMoveUp 1s ease forwards;
+ }
+ @keyframes fadeMoveUp {
+     to {
+         opacity: 1;
+         transform: translateY(5px);
+     }
+}
+#skill:hover .skillbox1{
+    transform: translateY(-50px);
+}
+
+.skillbox2{
+    height: 280px;
+    width: 450px;
+    border-radius: 150px;
+    background-color: rgb(28, 27, 27);
+    position: absolute;
+    left: 600px;
+    top: 220px;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeMoveUp 1s ease forwards;
+ }
+ @keyframes fadeMoveUp {
+     to {
+         opacity: 1;
+         transform: translateY(5px);
+     }
+}
+
+.skilltext1{
+    position: relative;
+    top: 100px;
+    left: 865px;
+    font-size: 50px;
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.skilltext2{
+    position: relative;
+    top: 260px;
+    left: 430px;
+    font-size: 50px;
+    color: white;
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.skilltext2elements li{
+    list-style-type: none;
+    color: white;
+    line-height: 70px;
+    display: inline;
+    padding-right:70px ;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.skilltext2elements{
+    position: relative;
+    left: 1030px;
+    top: 110px;
+    display: inline;
+    color: black;
+}
+
+.logophp{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -25px;
+    left: 1090px;
+}
+.logomysql{
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: 40px;
+    left: 1055px;
+}
+/* front-end elements */
+.skilltext1elements{
+    position: relative;
+    left: 530px;
+    top: 270px;
+    color: white;
+    list-style-type: none;
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.skilltext1elements li{
+    line-height: 40px;
+    display: inline;
+    padding-right: 30px;
+}
+
+.logohtml{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 580px;
+    top: 150px;
+}
+.logocss{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 620px;
+    top: 150px;
+}
+.logojs{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 670px;
+    top: 150px;
+}
